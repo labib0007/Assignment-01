@@ -1,0 +1,301 @@
+.nav {
+  margin-top: 70px;
+  margin-left: 100px;
+  margin-right: 100px;
+
+ background: #1E1E1E;
+  
+  color: var(--font-primary-color);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 50px;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #fd6f00;
+  /* margin-left: 200px; */
+}
+
+.home-about {
+  margin-left: 200px;
+  font-family: Rubik;
+  font-size: 21px;
+  font-weight: 400;
+
+  display: flex;
+  /* justify-content: space-between; */
+  width: Hug (733px) px;
+  height: Hug (66px) px;
+  padding: 7px 0px 7px 0px;
+  gap: 24px;
+  opacity: 0px;
+}
+
+.home {
+  line-height: 24.89px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.about {
+  line-height: 24.89px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.projects {
+  line-height: 24.89px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.testimonials {
+  width: 129px;
+  height: 25px;
+  gap: 0px;
+  opacity: 0px;
+
+  line-height: 24.89px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.download-cv {
+  align-items: center;
+
+
+  border: 2px solid;
+  border-radius: 100;
+  border-color: #fd6f00;
+  background-color: #fd6f00;
+
+  line-height: 0%;
+
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  width: 188px;
+  height: 52px;
+  top: 7px;
+  left: 545px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.cv-text {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.banner-container{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 100px;
+  background: #1E1E1E;
+
+}
+
+.banner-text-container {
+  margin-left: 100px;
+  font-family: Rubik;
+  
+}
+
+.banner-title {
+  /* display: flex;
+  flex-direction: column; */
+
+  margin-top: 100px; 
+
+  color: var(--font-primary-color);
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 47.4px;
+  letter-spacing: -0.015em;
+  text-align: left;
+}
+
+.banner-description {
+  color: #ffffff80;
+
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.33px;
+  letter-spacing: 0.03em;
+  text-align: justified;
+}
+
+.banner-bottom {
+  align-items: center;
+  display: flex;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  gap: 20px;
+  font-size: 24px;
+  font-weight: 300;
+  width: Hug (505.54px) px;
+  height: Hug (36.27px) px;
+  opacity: 0px;
+}
+
+.icons {
+  margin-top: 20px;
+  display: flex;
+  gap: 23px;
+  align-items: center;
+}
+
+
+.human{
+display: none;
+}
+.border{
+ 
+}
+
+#banner-image{
+  scale: crop;
+ 
+ margin-top:150px;
+  
+   background-image: url(./images/Banner/Ellipse\ 4.png);
+   background-position-x:center ;
+     background-position-y:4cm; 
+   background-repeat: no-repeat;
+   background-size:13cm;
+   /* object-fit: cover; */
+   
+   width: 485.87px;
+   height: 485.87px;
+   top: 308.37px;
+   left: 774.64px;
+   gap: 0px;
+   border: 6px 0px 0px 0px;
+   opacity: 0px;
+   
+
+
+/* width: 538px;
+height: 617.24px;
+top: 177px;
+left: 759px;
+gap: 0px;
+opacity: 0px; */
+
+
+
+/* 
+   width: 550px;
+   height: 815px;
+   top: 177px;
+   left: 759px;
+   gap: 0px;
+   opacity: 0px; */
+
+ 
+
+}
+
+
+
+.new-banner{
+
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  justify-content: space-between; 
+  
+
+
+}
+
+.about-me{
+  color:var(--font-primary-color);
+  font-family: Rubik;
+font-size: 40px;
+font-weight: 800;
+line-height: 47.4px;
+letter-spacing: -0.015em;
+text-align: left;
+text-transform: uppercase;
+
+  
+}
+
+.about-description{
+  color:#FFFFFF80;
+  font-family: Rubik;
+font-size: 18px;
+font-weight: 400;
+line-height: 21.33px;
+letter-spacing: 0.03em;
+text-align: left;
+
+
+}
+
+.star-exp{
+  color: var(--font-primary-color);
+  font-family: Rubik;
+  margin-top:45px;
+}
+
+.style{
+  margin-left: 40px;
+}
+
+.years{
+ 
+font-size: 47px;
+font-weight: 700;
+margin-top: 0px;
+padding: 0px;
+}
+
+.exp{
+ 
+font-size: 20px;
+font-weight: 400;
+margin-left:120px;
+
+}
+
+
+
+
+
+@media only screen and (min-width: 200px) and (max-width: 576px){
+
+
+.logo{
+  font-size: 15px;
+
+}
+
+.home-about {
+  font-size: 12px;
+  margin-left: 350px;
+  margin-right:0px;
+}
+
+
+.banner-image-container {
+
+  margin-left:100px;
+
+}
+
+
+
+}
