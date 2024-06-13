@@ -1,11 +1,425 @@
 /* start main */
 
-.all-experience{
-    background: linear-gradient(270.16deg, rgba(255, 177, 71, 0.1) 5.74%, rgba(255, 108, 99, 0.1) 50.64%, rgba(184, 106, 223, 0.1) 92.05%);
+.all-experience {
+  font-family: Rubik;
+  background-image: url(./images/Banner/BG.png);
+
+   background-color: #1e1e1e; 
+  color: rgba(255, 255, 255, 1);
+
+    display: flex; 
+     align-items:center;   
+} 
+
+.exp-name {
+  /* margin-top: 200px; */
+  margin-left: 100px;
+  /* margin-right: 100px;  */
+}
+
+.exp-title {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+}
+
+.my-exp {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56px;
+  text-align: left;
+}
+
+.experience-details {
+  margin-left: 200px;
+ margin-top: 200px; 
+  margin-bottom: 200px; 
+ 
+}
+
+.top-experience {
+  display: flex;
+  align-items: center;
+  gap: 200px;
+}
+
+.top {
+    margin-top: 0px;
+  font-family: Rubik;
+  font-size: 18px;
+  font-style: italic;
+
+  text-align: left;
+}
+
+.rolling {
+    margin-top: 0px;
+  font-family: Rubik;
+  font-size: 16px;
+
+  text-align: right;
+}
+
+.lead {
+  font-family: Rubik;
+  font-size: 32px;
+margin-top: 0px;
+  text-align: left;
+}
+
+.awards{
+    font-family: Rubik;
+
+}
 
 
-    color: rgba(255, 255, 255, 1);
-    margin-top:200px;
-    margin-left: 100px;
-    margin-right: 100px;
-  }
+.awards-title{
+    padding-top: 100px;
+    color:#FFFFFF;
+    
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 47.4px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    text-align: center;
+    
+}
+
+.awards-subtitle{
+   
+    color: #FFFFFF80;
+
+    text-align: center;
+}
+
+.best-mobile{
+    background-color:#000000 ;
+    padding-top:50px;
+    padding-left:100px;
+    padding-bottom: 50px;
+     margin-top: 60px; 
+  margin-left: 100px;
+  margin-right: 100px; 
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.best-mobile-title{
+    color:#FFFFFF;
+    font-family: Rubik;
+font-size: 24px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+
+}
+
+.best-mobile-description{
+    color: #FFFFFF80;
+    font-family: Rubik;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+
+
+}
+
+.best-mobile-right{
+    font-family: Rubik;
+font-size: 18px;
+font-weight: 700;
+line-height: 28px;
+text-align: left;
+color:#FFFFFF;
+}
+
+
+
+.uiux-design{
+    background-color:#000000 ;
+    padding-top:50px;
+    padding-left:100px;
+    padding-bottom: 50px;
+     /* margin-top: 60px;  */
+  margin-left: 100px;
+  margin-right: 100px; 
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+.uiux-design-title{
+    color:#FFFFFF;
+    font-family: Rubik;
+font-size: 24px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+
+}
+
+.uiux-design-description{
+    color: #FFFFFF80;
+    font-family: Rubik;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+
+
+}
+
+.uiux-design-right{
+    font-family: Rubik;
+font-size: 18px;
+font-weight: 700;
+line-height: 28px;
+text-align: left;
+color:#FFFFFF;
+}
+
+
+
+.my-portfolio-title{
+    font-family: Rubik;
+   padding-top: 50px; 
+    color:#FFFFFF;
+    
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 47.4px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.my-portfolio-subtitle{
+   
+    color: #FFFFFF80;
+
+    text-align: center;
+}
+
+.skills-image{
+    text-align: center;
+    padding-top: 25px;
+}
+
+
+.ux-case-study{
+    color:#FFFFFF;
+    font-family: Rubik;
+font-size: 18px;
+font-style: italic;
+font-weight: 600;
+line-height: 24px;
+text-align: left;
+
+}
+
+.portfolio-one-title{
+    font-family: Rubik;
+font-size: 40px;
+font-weight: 700;
+line-height: 40px;
+text-align: left;
+color: #FFFFFF;
+
+}
+
+.portfolio-one-details{
+    font-family: Rubik;
+font-size: 18px;
+font-weight: 400;
+line-height: 21.33px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #FFFFFF80;
+}
+
+.first-portfolio{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+margin-top: 60px; 
+  margin-left: 100px;
+  margin-right: 100px; 
+  margin-bottom: 100px;
+}
+
+
+
+
+.portfolio-two-title{
+    font-family: Rubik;
+font-size: 40px;
+font-weight: 700;
+line-height: 40px;
+text-align: left;
+color: #FFFFFF;
+
+}
+
+.portfolio-two-details{
+    font-family: Rubik;
+font-size: 18px;
+font-weight: 400;
+line-height: 21.33px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #FFFFFF80;
+}
+
+.second-portfolio{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+margin-top: 60px; 
+  margin-left: 100px;
+  margin-right: 100px; 
+  margin-bottom: 100px;
+} 
+
+
+.contact{
+    font-family: Rubik;
+font-size: 18px;
+font-style: italic;
+font-weight: 600;
+line-height: 24px;
+text-align: center;
+color:#FFFFFF;
+padding:0px;
+} 
+
+.reachout-title{
+    color:#FFFFFF;
+    font-family: Rubik;
+font-size: 40px;
+font-weight: 700;
+line-height: 56px;
+text-align: center;
+padding:0px;
+}
+
+.form{
+    background-image: url(./images/Reach/BG.png);
+    color: #FFFFFF;
+    font-family: Rubik;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+text-align: left;
+padding-top: 50px;
+padding-left: 100px;
+padding-bottom: 50px;
+margin-left: 100px;
+margin-right: 100px; 
+margin-bottom: 100px;
+}
+
+.name-email{
+    display: flex;
+   
+    
+
+}
+
+.name{
+    text-transform: uppercase;
+    font-family: Rubik;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+
+}
+
+.email{
+    text-transform: uppercase;
+    font-family: Rubik;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+margin-left: 55px;
+
+}
+
+.message{
+    font-family: Rubik;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+text-transform: uppercase;
+
+}
+
+.attach{
+    display: flex;
+   gap: 5px;
+
+}
+.attach-sign{
+     padding-top:5px;
+}
+
+.attach-text{
+    font-family: Rubik;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+text-transform: uppercase;
+width: 99px;
+height: 24px;
+gap: 0px;
+opacity: 0.8px;
+color: #FFFFFF;
+
+
+
+}
+
+.submit-button{
+    padding-top:30px;
+}
+
+.final-logo{
+    background-color: #000000;
+}
+
+.final-logo-title{
+    padding-top:100px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.final-options{
+    text-align: center;
+}
+
+.final-icons{
+    
+    padding-top:60px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.copyright{
+    padding-top:20px;
+    padding-bottom:10px;
+    background-color: #121212;
+    text-align: center;
+}

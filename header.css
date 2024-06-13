@@ -1,5 +1,10 @@
+.header-container{
+  background-color: #1E1E1E;
+}
+
 .nav {
-  margin-top: 70px;
+ 
+  padding-top: 50px;
   margin-left: 100px;
   margin-right: 100px;
 
@@ -69,7 +74,7 @@
 }
 
 .download-cv {
-  align-items: center;
+  /* align-items: center;
 
 
   border: 2px solid;
@@ -87,7 +92,7 @@
   top: 7px;
   left: 545px;
   gap: 0px;
-  opacity: 0px;
+  opacity: 0px; */
 }
 
 .cv-text {

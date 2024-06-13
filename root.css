@@ -1,5 +1,5 @@
 :root {
-    --background-color: #1E1E1E; 
+   background-color: #1E1E1E; 
     --font-primary-color: #FFFFFF;
   
 
@@ -8,6 +8,6 @@
 
   *{
 
-     background-color: #1E1E1E;  
+  /* background-color: #1E1E1E;     */
 
   }
